@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start": "node index.vue",
     "generate": "nuxt generate"
   },
   "dependencies": {
