@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        proyect-poker
+        Hola heroku mi primer proyecto 
       </h1>
       <div class="links">
         <a
