@@ -2,7 +2,7 @@
     "root":"dist",
     "clear_url":true,
     "routes": {
-        "/**":"index.vue"
+        "/**":"index.html"
     }
 }
 
