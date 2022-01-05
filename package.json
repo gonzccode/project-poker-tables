@@ -14,7 +14,6 @@
     "core-js": "^3.9.1",
     "nuxt": "^2.15.5",
     "nuxt-property-decorator": "^2.9.1",
-    "stylus": "^0.54.8",
     "stylus-loader": "^5.0.0",
     "vue-loader": "^15.9.6",
     "vue-style-loader": "^4.1.3"

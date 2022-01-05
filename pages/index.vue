@@ -1,4 +1,4 @@
-<template>
+<template lang="html">
   <div class="poker-tables">
     <div class="container">
       <div class="tables" style="margin-top:20px; color: rgba(0,0,0,3)" >
@@ -24,23 +24,23 @@
           </div>
           <div class="bbvsutg-table" v-if="bbvsutgValue">
             <h5>BB VS UTG</h5>
-            <img src="@/assets/images/bb vs utg.jpg" height="330px">
+            <img src="../assets/images/bb vs utg.jpg" height="330px">
           </div>
           <div class="bbvsmp-table" v-if="bbvsmpValue">
             <h5>BB VS MP</h5>
-            <img src="@/assets/images/bb vs mp.jpg" height="330px">
+            <img src="../assets/images/bb vs mp.jpg" height="330px">
           </div>
           <div class="bbvsco-table" v-if="bbvscoValue">
             <h5>BB VS CO</h5>
-            <img src="@/assets/images/bb vs co.jpg" height="330px">
+            <img src="../assets/images/bb vs co.jpg" height="330px">
           </div>
           <div class="bbvsbtn-table" v-if="bbvsbtnValue">
             <h5>BB VS BTN</h5>
-            <img src="@/assets/images/bb vs btn.jpg" height="330px">
+            <img src="../assets/images/bb vs btn.jpg" height="330px">
           </div>
           <div class="bbvssb-table" v-if="bbvssbValue">
             <h5>BB VS SB</h5>
-            <img src="@/assets/images/bb vs sb.jpg" height="330px">
+            <img src="../assets/images/bb vs sb.jpg" height="330px">
           </div>
         </div>
         <div class="sb-table"  v-if="sbValue">
@@ -55,23 +55,23 @@
           
           <div class="sbor-table" v-if="sborValue">
             <h5>SB OR</h5>
-            <img src="@/assets/images/sb or.jpg" height="330px">
+            <img src="../assets/images/sb or.jpg" height="330px">
           </div>
           <div class="sbvsutg-table" v-if="sbvsutgValue">
             <h5>SB VS UTG</h5>
-            <img src="@/assets/images/sb vs utg.jpg" height="330px">
+            <img src="../assets/images/sb vs utg.jpg" height="330px">
           </div>
           <div class="sbvsmp-table" v-if="sbvsmpValue">
             <h5>SB VS MP</h5>
-            <img src="@/assets/images/sb vs mp.jpg" height="330px">
+            <img src="../assets/images/sb vs mp.jpg" height="330px">
           </div>
           <div class="sbvsco-table" v-if="sbvscoValue">
             <h5>SB VS CO</h5>
-            <img src="@/assets/images/sb vs co.jpg" height="330px">
+            <img src="../assets/images/sb vs co.jpg" height="330px">
           </div>
           <div class="sbvsbtn-table" v-if="sbvsbtnValue">
             <h5>SB VS BTN</h5>
-            <img src="@/assets/images/sb vs btn.jpg" height="330px">
+            <img src="../assets/images/sb vs btn.jpg" height="330px">
           </div>
           
         </div>
@@ -87,19 +87,19 @@
           
           <div class="btnor-table" v-if="btnorValue">
             <h5>BTN OR</h5>
-            <img src="@/assets/images/btn or.jpg" height="330px">
+            <img src="../assets/images/btn or.jpg" height="330px">
           </div>
           <div class="btnvsutg-table" v-if="btnvsutgValue">
             <h5>BTN VS UTG</h5>
-            <img src="@/assets/images/btn vs utg.jpg" height="330px">
+            <img src="../assets/images/btn vs utg.jpg" height="330px">
           </div>
           <div class="btnvsmp-table" v-if="btnvsmpValue">
             <h5>BTN VS MP</h5>
-            <img src="@/assets/images/btn vs mp.jpg" height="330px">
+            <img src="../assets/images/btn vs mp.jpg" height="330px">
           </div>
           <div class="btnvsco-table" v-if="btnvscoValue">
             <h5>BTN VS CO</h5>
-            <img src="@/assets/images/btn vs co.jpg" height="330px">
+            <img src="../assets/images/btn vs co.jpg" height="330px">
           </div>
         </div>
 
@@ -113,15 +113,15 @@
           
           <div class="coor-table" v-if="coorValue">
             <h5>CO OR</h5>
-            <img src="@/assets/images/co or.jpg" height="330px">
+            <img src="../assets/images/co or.jpg" height="330px">
           </div>
           <div class="covsutg-table" v-if="covsutgValue">
             <h5>CO VS UTG</h5>
-            <img src="@/assets/images/co vs utg.jpg" height="330px">
+            <img src="../assets/images/co vs utg.jpg" height="330px">
           </div>
           <div class="covsmp-table" v-if="covsmpValue">
             <h5>CO VS MP</h5>
-            <img src="@/assets/images/co vs mp.jpg" height="330px">
+            <img src="../assets/images/co vs mp.jpg" height="330px">
           </div>
         </div>
 
@@ -134,25 +134,25 @@
           
           <div class="mpor-table" v-if="mporValue">
             <h5>MP OR</h5>
-            <img src="@/assets/images/mp or.jpg" height="330px">
+            <img src="../assets/images/mp or.jpg" height="330px">
           </div>
           <div class="mpvsutg-table" v-if="mpvsutgValue">
             <h5>MP VS UTG</h5>
-            <img src="@/assets/images/mp vs utg.jpg" height="330px">
+            <img src="../assets/images/mp vs utg.jpg" height="330px">
           </div>
         </div>
 
         <div class="utg-table" v-if="utgValue">
           <h5>UTG</h5>
-          <img src="@/assets/images/utg.jpg" height="330px">
+          <img src="../assets/images/utg.jpg" height="330px">
         </div>
         <div class="sqz-table"  v-if="sqzValue">
           <h5>SQZ</h5>
-          <img src="@/assets/images/sqz.jpg" height="360px">
+          <img src="../assets/images/sqz.jpg" height="360px">
         </div>
         <div class="rol-table"  v-if="rolValue">
           <h5>ROL</h5>
-          <img src="@/assets/images/rol.jpg" height="380px">
+          <img src="../assets/images/rol.jpg" height="380px">
         </div>
         <div class="title-tables" style="margin-top:20px; color: #000000" >
           <h5>TIPS</h5>
@@ -463,7 +463,7 @@
 }
 
 body {
-  background-image: url("~@/assets/images/mountain.jpg");
+  background-image: url("~../assets/images/mountain.jpg");
   background-size: 100%;
 }
 
