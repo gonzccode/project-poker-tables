@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <div class="poker-tables">
     <div class="container">
       <div class="tables" style="margin-top:20px; color: rgba(0,0,0,3)" >
