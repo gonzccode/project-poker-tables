@@ -2,7 +2,7 @@
   <div class="poker-tables">
     <div class="container">
       <div class="tables" style="margin-top:20px; color: rgba(0,0,0,3)" >
-        <h1>Tablas Poker Army</h1>
+        <h1>Tablas Poker</h1>
         <div class="button-tables" style="margin-bottom:20px">
           <button type="button" class="btn btn-primary" @click="tableView('utg')">UTG</button>
           <button type="button" class="btn btn-secondary" @click="tableView('mp')">MP</button>
